@@ -1,5 +1,5 @@
 # Face-Detection
-A basic program that utilizes OpenCV's frontal face cascade classifier to detect faces in a grayscale image file. 
+A basic program that utilizes OpenCV's frontal face cascade classifier to detect and recognize faces in a grayscale image file. 
 
 ## Example Pictures
 <img width="479" alt="image" src="https://user-images.githubusercontent.com/70067413/186469754-0386b7a1-d365-4328-8ecf-46771afddf79.png">
