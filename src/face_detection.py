@@ -1,12 +1,10 @@
 from distutils.fancy_getopt import fancy_getopt
 import cv2 as cv
 
-img = cv.imread("images/lady.jpg")
-cv.imshow("Lady", img)
+img = cv.imread("images/4people.webp")
 
 # Convert to grayscale
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
-cv.imshow("Gray Lady", gray)
 
 # Haar Cascade Classifier
 haar_cascade = cv.CascadeClassifier("src/haar_face.xml")
