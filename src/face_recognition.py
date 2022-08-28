@@ -5,13 +5,13 @@ import os
 haar_cascade = cv.CascadeClassifier("src/haar_face.xml")
 
 people_list = []
-for people in os.listdir("images\Faces"):
+for people in os.listdir("Faces"):
     people_list.append(people)
 
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read("src/face_trained.yml")
 
-img = cv.imread(r"images/Faces/Ben Afflek/9.jpg")
+img = cv.imread(r"Faces/Ben Afflek/9.jpg")
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 

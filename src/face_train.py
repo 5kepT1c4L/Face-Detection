@@ -3,10 +3,10 @@ import numpy as np
 import os 
 
 people_list = []
-for people in os.listdir("images\Faces"):
+for people in os.listdir("Faces"):
     people_list.append(people)
 
-DIR = "images\Faces"
+DIR = "Faces"
 haar_cascade = cv.CascadeClassifier("src/haar_face.xml")
 
 features = []
