@@ -1,4 +1,4 @@
-# Face-Detection
+# Face-Detection-and-Recognition
 A basic program that utilizes OpenCV's frontal face cascade classifier to detect faces in a grayscale image file. OpenCV was also trained to recognize individuals from an input image through the use of an LBPHF face recognizer.
 
 ## Example Pictures
