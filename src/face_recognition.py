@@ -11,7 +11,7 @@ for people in os.listdir("Faces"):
 face_recognizer = cv.face.LBPHFaceRecognizer_create()
 face_recognizer.read("src/train/face_trained.yml")
 
-img = cv.imread(r"Faces/Ben Afflek/9.jpg")
+img = cv.imread(r"Faces/Elton John/4.jpg")
 
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 

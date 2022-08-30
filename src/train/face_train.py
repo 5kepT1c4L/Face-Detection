@@ -7,7 +7,7 @@ for people in os.listdir("Faces"):
     people_list.append(people)
 
 DIR = "Faces"
-haar_cascade = cv.CascadeClassifier("src/haar_face.xml")
+haar_cascade = cv.CascadeClassifier("src/train/haar_face.xml")
 
 features = []
 labels = []
